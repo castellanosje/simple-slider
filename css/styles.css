@@ -1,0 +1,62 @@
+ul, ul li {
+  list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	line-height: 100%;
+}
+
+
+/*con esta regla puede alterar el ancho y crear versiones responsive usando media query o adaptarlo de acuerdo a su proyecto*/
+.slide {
+	width: 600px;
+	height: 400px;
+	background: #666;
+	display: block;
+	float: left;
+}
+
+
+
+.contenedorSlideShow {
+	margin: 50px auto;
+	position: relative;
+	border: 1px solid red;
+	overflow: hidden;
+}
+.slideShow {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/*esta debe ajustarla de auerdo a lo que necesite agregar como contenido*/
+.slideBox {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 170px;
+}
+.navegacionSlideShow {
+	padding: 8px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+  z-index:100;
+}
+.vineta {
+	width: 16px;
+	height: 16px;
+	background: #8a1d8a;
+  border-radius:20px;
+	margin: 0px 8px;
+	float: left;
+  display:block;
+  cursor:pointer;
+}
+.vineta:hover{background:#394ea3;}
