@@ -1,4 +1,5 @@
 $(document).ready(function () {
+// todo bom, .. ta bom
 /*desarrollado por Jaime Enrique Rodríguez Castellanos je34429@gmail.com */ 
  
     var anchoSlider = 0;
